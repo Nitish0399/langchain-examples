@@ -1,0 +1,22 @@
+{
+  "name": "langchain",
+  "version": "1.0.0",
+  "description": "This project contains three example use cases of a Gen AI application, coded in Javascript. These examples are picked up from the LangChain tutorials.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nitish",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "@langchain/openai": "^0.0.33",
+    "cheerio": "^1.0.0-rc.12",
+    "langchain": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
